@@ -1,0 +1,65 @@
+1. How do you link a css file to your html page?
+
+//Your Answer You use the link tag
+
+//Googled Answer To start with, open up your html document in Sublime Text. In the header section, add: <link rel="stylesheet" type="text/css" href="PATHTOCSSHERE">. You want to change "PATHTOCSSHERE" with the path to the css file you are trying to link the html page to.
+
+2. What is a css class? How do you use declare one in html? How do you use it in css?
+
+//Your Answer A css class is a way to assign attributes to a specified number of elements on your page. You declare one by using class= and you refer to it by using .
+
+//Googled Answer In the CSS, a class selector is a name preceded by a full stop (“.”)
+
+3. The class "heading-box" exists in our html file - write the css code that would:
+
+1) align this box to the center of its container,
+
+.heading-box {
+    align: center
+}
+
+2) give it a black border that is 5px wide,
+
+.heading-box {
+    border: black solid 5px
+}
+
+3) make its text appear in the center of the box
+
+.heading-box {
+    text-align: center
+}
+
+4. What is Bootstrap? Explain a few reasons that you might choose to use it in a project?
+
+//Your Answer Bootstrap is a library of different elements you can use in your pages. It can be a fast way to build websites using their code to build elements.
+
+//Googled Answer Bootstrap is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.
+
+5. Name 4 semantic html tags: header, footer, main, section
+
+6. What is block scope that became available in ES6? Include how it differs from local and global scope, and what variables are block scoped.
+
+//Your Answer block scope is the same as local scope in that the variables inside can't be seen outside of that function.
+
+//Googled Answer Variable Scope: Global vs. Local. A variable's scope is the range of the script where it is visible. Variables have either global or local scope. ... A local variable, however, has a limited scope: it exists only within the block that it is declared in.
+
+7. What is front end development? Can you identify any tools/skills that are uniquely required of front end developers?
+
+//Your Answer Front end is more what the user experiences whereas backend is more database oriented.
+
+//Googled Answer Backend. The backend usually consists of three parts: a server, an application, and a database. If you book a flight or buy concert tickets, you usually open a website and interact with the frontend. ... Designers then customize the look and functionality of WordPress sites using CSS, jQuery and JavaScript.
+
+8. Choose one of the new ES6 concepts we learned about this week (namely: block scope, classes, and string interpolation) and write example code that demonstrates the concept, with comments to explain what is going on.
+
+9. What is the difference between a div and a span?
+
+//Your Answer span is inline and div is not
+
+//Googled Answer The difference between span and div is that a span element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph) whereas a div (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
+
+10. How would you explain the idea of "inheritance" in object oriented programming?
+
+//Your Answer Inheritance means that qualities are inherited from parent to child elements.
+
+//Googled Answer In object-oriented programming, inheritance enables new objects to take on the properties of existing objects. A class that is used as the basis for inheritance is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class.
